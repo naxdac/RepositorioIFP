@@ -1,0 +1,14 @@
+<<<<<<<<< MELHORIAS NO SITE INSTITUTO FLAVIO PEREIRA>>>>>>>>>>
+
+Funcionalidades do Código:
+
+✅ Verifica suporte a eventos passivos → Melhora a performance de rolagem.
+✅ Cria requestIdleCallback() e cancelIdleCallback() se não existirem → Evita bloqueios no processamento.
+✅ Detecta o modo de economia de dados (saveData) → Permite carregar menos conteúdo para conexões limitadas.
+✅ Verifica suporte a prefetch e IntersectionObserver → Melhora o carregamento antecipado de páginas.
+✅ Detecta conexões lentas (2G, slow-2G) → Evita carregar mídias pesadas.
+Melhorias possíveis:
+
+🔹 Evitar o uso de this dentro de get passive() → Pode causar erro no escopo.
+🔹 Melhorar compatibilidade em navegadores antigos → Algumas verificações poderiam ser aprimoradas.
+🔹 Otimizar inicialização → Criar métodos estáticos para verificações mais rápidas.
